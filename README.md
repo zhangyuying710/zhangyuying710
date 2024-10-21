@@ -4,7 +4,8 @@ __Подготовлено__:
 Чжан Юйин
 **ИСУ**:
 426409
-test 1
+
+tast 1
 def fix_variable_name(variable_name):
     # 1. Замена символов '-' на '_'
     variable_name = variable_name.replace('-', '_')
@@ -46,7 +47,8 @@ def fix_variable_name(variable_name):
         return "Введено некорректное имя переменной"
     
     return variable_name if variable_name else "Введено некорректное имя переменной"
-test2
+
+tast2
 def display_products(products):
     print("| ID  | ProductName | Цена |")
     print("|-----|-------------|------|")
@@ -101,7 +103,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-    test3
+    
+    tast3
     def main():
     while True:
         user_input = input("Введите номер задания (или 'выход' для завершения): ")
@@ -169,7 +172,8 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     main()
 ```
-test4
+
+tast4
 # Исходный список компаньонов
 companions = [
     "Astarion", "Gale", "Karlach", "Lae'zel",
@@ -193,8 +197,8 @@ print(third_slice)
 fourth_slice = companions[0:1] + companions[12:13]
 print(fourth_slice)
 ```
-test5
-```python
+
+tast5
 def main():
     valid_items = {"меч", "лук", "топор", "щит", "зелье"}
     chosen_items = []
@@ -219,7 +223,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-test6
+
+tast6
 def main():
     # Начальные координаты Петра
     x, y = 0, 0
@@ -250,7 +255,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-test7
+
+tast7
 def reverse_number(n):
     reversed_num = 0
     negative = n < 0  # Проверяем, отрицательное ли число
@@ -268,7 +274,8 @@ number = int(input("Введите целое число: "))
 result = reverse_number(number)
 print(result)
 ```
-test8
+
+tast8
 def main():
     # Хранение структурированных данных о песне
     song_parts = {
